@@ -1,0 +1,52 @@
+{
+  "_from": "zipcodes",
+  "_id": "zipcodes@8.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-V8NolFaJhsPamGeCv5lJdk60Q7JBiXI6e+8JDksPC1NJWZ0t7g1OFfqVLZb2Nc2F5jmf9JTdYdWJBnIhGBvtbA==",
+  "_location": "/zipcodes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zipcodes",
+    "name": "zipcodes",
+    "escapedName": "zipcodes",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/zipcodes/-/zipcodes-8.0.0.tgz",
+  "_shasum": "4d124cdeedfc693f1b0ef8060323f206aeb98a9b",
+  "_spec": "zipcodes",
+  "_where": "C:\\Users\\munee\\Desktop\\Work\\experiments\\JS\\Node\\zipcode_to_location",
+  "author": {
+    "name": "Dav Glass",
+    "email": "davglass@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/davglass/zipcodes/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Useful zipcode database with helper methods",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "vows": "^0.8.1"
+  },
+  "homepage": "https://github.com/davglass/zipcodes#readme",
+  "license": "BSD",
+  "main": "./lib/index.js",
+  "name": "zipcodes",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davglass/zipcodes.git"
+  },
+  "scripts": {
+    "test": "istanbul cover --print both -- vows --spec ./tests/lookup.js"
+  },
+  "version": "8.0.0"
+}
