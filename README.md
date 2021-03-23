@@ -1,3 +1,7 @@
+Preface
+================
+I forked this npm package from `https://github.com/davglass/zipcodes` and made modifications to suite my requirements. I got a consent from him even though its an opensource project. Thanks @https://github.com/davglass/ for contributing to opensource. 👍
+
 Zip Code Lookups
 ================
 
